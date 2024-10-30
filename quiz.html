@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Que tipo de empreendedor você é?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <header class="header">
+            <a href="index.html">
+                <img src="assets/logo.png" alt="Empreendedorismo com o Canva">
+            </a>
+        </header>
+        <main>
+            <section class="quiz">
+                <div class="progress-bar">
+                    <div></div> <!-- Esta div interna será preenchida conforme o progresso -->
+                </div>
+                
+                <div class="question-container">
+                    <div class="question">
+                        <h2>Pergunta</h2>
+                        <button class="answer" onclick="selectAnswer('A')"><span>A) Opção A</span></button>
+                        <button class="answer" onclick="selectAnswer('B')"><span>B) Opção B</span></button>
+                        <button class="answer" onclick="selectAnswer('C')"><span>C) Opção C</span></button>
+                    </div>
+                    <div class="question-image">
+                        <img src="assets/p1.gif" alt="Imagem da pergunta">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <img src="assets/logo-colab.png" alt="Logo Colaborativa">
+        </footer>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>

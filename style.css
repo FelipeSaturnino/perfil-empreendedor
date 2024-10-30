@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: #F3F2FE;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.header, .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background-color: #E8DEFD;
+}
+
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.hero-text h1 {
+    font-size: 64px;
+    line-height: 70px;
+    color: #333;
+    max-width: 600px;
+    margin-bottom: 20px; /* Adiciona espaçamento abaixo do título */
+}
+
+
+
+
+.hero-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Botão Primário */
+.btn-primary {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #7731D8;
+    border-radius: 16px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 20px; /* Adiciona espaçamento acima do botão */
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background: #5C24A8;
+    box-shadow: 0 0 8px 0 #5C24A833, 0 0 16px 0 #5C24A833;
+}
+
+/* Estilos para quiz.html */
+.quiz {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.progress-bar {
+    background: #E8DEFD;
+    border-radius: 10px;
+    height: 10px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.progress-bar div {
+    background-color: #7731D8;
+    height: 100%;
+    width: 0;
+    transition: width 0.3s;
+}
+
+.question-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.question {
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+}
+
+.question h2 {
+    font-size: 32px;
+    line-height: 1.3;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.question-image img {
+    max-width: 100%;
+    max-height: 300px; /* Limite de altura */
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    object-fit: contain; /* Garante que a imagem se ajuste sem distorções */
+}
+
+
+.answer {
+    background: #E8DEFD;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+    min-height: 60px;
+    padding: 12px 20px;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 12px;
+    transition: background-color 0.3s;
+}
+
+.answer:hover {
+    background: #D0C4F0;
+}
+
+.answer span {
+    color: inherit;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #E8DEFD;
+}
+
+.header img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer img {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #E8DEFD;
+}
+
+.footer a {
+    color: #7731D8;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #5C24A8;
+}
+
+.profile-content {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.profile-image img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.results-heading {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.description-container {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+}
